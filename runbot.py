@@ -36,7 +36,7 @@ comments = [
     "You're an inspiration! 💫"
 ]
 
-waittime=range(1,8)
+waittime=range(1,7)
 while True:
     random_comment = random.choice(comments)
     random_wait=random.choice(waittime)
@@ -44,6 +44,7 @@ while True:
     pyautogui.doubleClick()
     time.sleep(random_wait)
     pyautogui.moveTo(1406,956,0.5)
+    time.sleep(random_wait)
     pyautogui.click()
     time.sleep(random_wait)
     
