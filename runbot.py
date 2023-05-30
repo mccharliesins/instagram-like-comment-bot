@@ -35,5 +35,3 @@ comments = [
 ]
 
 random_comment = random.choice(comments)
-
-waittime=
