@@ -34,8 +34,9 @@ comments = [
     "You're an inspiration! 💫"
 ]
 
-random_comment = random.choice(comments)
-waittime=range(1,7)
+waittime=range(1,8)
 while True:
+    
+    random_comment = random.choice(comments)
     random_wait=random.choice(waittime)
     print(random_wait)
