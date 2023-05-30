@@ -42,4 +42,4 @@ import pyautogui
 #     random_wait=random.choice(waittime)
 #     print(random_wait,random_comment)
 while True:
-    
+    print(pyautogui.position())
