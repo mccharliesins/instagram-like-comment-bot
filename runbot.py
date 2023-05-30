@@ -2,6 +2,7 @@ import random
 import time
 import pyautogui
 
+time.sleep(5)
 # Add sample comments here!
 comments = [
     "Awesome post! 😄",
