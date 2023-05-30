@@ -48,9 +48,9 @@ while True:
     pyautogui.click()
     pyautogui.write(random_comment,0.2)
     time.sleep(1)
-    
+    pyautogui.press('enter')
     time.sleep(random_wait)
-    
+    pyautogui.mo
     time.sleep(random_wait)
     
     click double to like(606,493)
