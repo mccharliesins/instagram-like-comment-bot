@@ -36,8 +36,10 @@ comments = [
     "This deserves applause! 👏👏👏",
     "You're an inspiration! 💫"
 ]
-i=0
+
 waittime=range(1,7)
+
+i=0
 while i<50:
     random_comment = random.choice(comments)
     random_wait=random.choice(waittime)
