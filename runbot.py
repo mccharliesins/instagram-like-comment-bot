@@ -46,6 +46,7 @@ while True:
     pyautogui.moveTo(1406,956,0.5)
     time.sleep(random_wait)
     pyautogui.click()
+    pyautogui.write(random_comment,)
     time.sleep(random_wait)
     
     time.sleep(random_wait)
