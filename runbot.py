@@ -36,3 +36,4 @@ comments = [
 
 random_comment = random.choice(comments)
 waittime=range(1,7)
+random_wait=random.choice()
