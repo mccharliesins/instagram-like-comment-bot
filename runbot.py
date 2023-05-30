@@ -35,7 +35,7 @@ comments = [
     "This deserves applause! 👏👏👏",
     "You're an inspiration! 💫"
 ]
-
+i=0
 waittime=range(1,7)
 while i<50:
     random_comment = random.choice(comments)
@@ -60,3 +60,6 @@ while i<50:
     pyautogui.moveTo(1865,548,1)
     time.sleep(random_wait)
     pyautogui.click()
+    
+    #
+    i+=1
