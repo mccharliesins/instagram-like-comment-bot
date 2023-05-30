@@ -41,4 +41,5 @@ import pyautogui
 #     random_comment = random.choice(comments)
 #     random_wait=random.choice(waittime)
 #     print(random_wait,random_comment)
-while
+while True:
+    
