@@ -40,7 +40,7 @@ waittime=range(1,8)
 while True:
     random_comment = random.choice(comments)
     random_wait=random.choice(waittime)
-    pyautogui.
+    pyautogui.moveTo(606,493,)
     click double to like(606,493)
     go to comments (1406,956)
     go to the next post(1865,548)
