@@ -42,7 +42,12 @@ while True:
     random_wait=random.choice(waittime)
     pyautogui.moveTo(606,493,1)
     pyautogui.doubleClick()
-    time.sleep()
+    time.sleep(random_wait)
+    
+    time.sleep(random_wait)
+    
+    time.sleep(random_wait)
+    
     click double to like(606,493)
     go to comments (1406,956)
     go to the next post(1865,548)
