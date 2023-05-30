@@ -41,4 +41,3 @@ while True:
     random_comment = random.choice(comments)
     random_wait=random.choice(waittime)
     print(random_wait,random_comment)
-    time.sleep(ran)
