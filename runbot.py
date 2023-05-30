@@ -52,6 +52,8 @@ while True:
     time.sleep(random_wait)
     pyautogui.moveTo(1865,548,1)
     time.sleep(random_wait)
+    pyautogui.click()
+    
     
     click double to like(606,493)
     go to comments (1406,956)
