@@ -43,7 +43,7 @@ while True:
     pyautogui.moveTo(606,493,1)
     pyautogui.doubleClick()
     time.sleep(random_wait)
-    
+    pyautogui.moveTo(1406,0.5)
     time.sleep(random_wait)
     
     time.sleep(random_wait)
