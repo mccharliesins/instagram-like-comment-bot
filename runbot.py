@@ -54,6 +54,8 @@ while True:
     pyautogui.write(random_comment,0.2)
     time.sleep(1)
     pyautogui.press('enter')
+    
+    # Wait and move to next post!
     time.sleep(random_wait)
     pyautogui.moveTo(1865,548,1)
     time.sleep(random_wait)
