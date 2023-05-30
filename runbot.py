@@ -61,5 +61,6 @@ while i<50:
     time.sleep(random_wait)
     pyautogui.click()
     
-    #
+    # Increament the value of I
     i+=1
+    
