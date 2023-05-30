@@ -35,4 +35,4 @@ comments = [
 ]
 
 random_comment = random.choice(comments)
-print(random_comment)
+like
