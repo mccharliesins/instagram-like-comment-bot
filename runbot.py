@@ -63,4 +63,4 @@ while i<50:
     
     # Increament the value of I
     i+=1
-    
+    print(f"Total Likes & Comments: {i}")
