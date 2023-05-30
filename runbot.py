@@ -37,4 +37,5 @@ comments = [
 random_comment = random.choice(comments)
 waittime=range(1,7)
 while True:
+    random_wait=random.choice(waittime)
     print(random_wait)
