@@ -37,7 +37,7 @@ comments = [
 ]
 
 waittime=range(1,7)
-while True:
+while :
     random_comment = random.choice(comments)
     random_wait=random.choice(waittime)
     
@@ -60,9 +60,3 @@ while True:
     pyautogui.moveTo(1865,548,1)
     time.sleep(random_wait)
     pyautogui.click()
-    
-    click double to like(606,493)
-    go to comments (1406,956)
-    go to the next post(1865,548)
-while True:
-    print(pyautogui.position())
