@@ -38,7 +38,7 @@ comments = [
 ]
 
 waittime=range(1,7)
-
+totallikesandcomments
 i=0
 while i<50:
     random_comment = random.choice(comments)
