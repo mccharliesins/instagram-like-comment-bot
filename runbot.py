@@ -51,7 +51,6 @@ while True:
     pyautogui.press('enter')
     time.sleep(random_wait)
     pyautogui.moveTo(1865,548,1)
-    
     time.sleep(random_wait)
     
     click double to like(606,493)
