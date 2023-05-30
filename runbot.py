@@ -2,6 +2,7 @@ import random
 import time
 import pyautogui
 
+# Add sample comments here!
 comments = [
     "Awesome post! 😄",
     "Thanks for sharing! 🙌",
