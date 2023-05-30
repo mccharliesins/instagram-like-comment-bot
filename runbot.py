@@ -45,6 +45,8 @@ while True:
     time.sleep(random_wait)
     pyautogui.moveTo(606,493,1)
     pyautogui.doubleClick()
+    
+    # Wait and then move to comments to comment
     time.sleep(random_wait)
     pyautogui.moveTo(1406,956,0.5)
     time.sleep(random_wait)
